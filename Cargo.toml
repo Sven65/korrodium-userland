@@ -1,0 +1,7 @@
+[workspace]
+resolver = "2"
+members = ["korrodium-sdk", "programs/hello"]
+
+[profile.release]
+opt-level = "s"
+lto = true
