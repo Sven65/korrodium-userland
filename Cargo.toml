@@ -1,6 +1,6 @@
 [workspace]
 resolver = "2"
-members = ["korrodium-sdk", "programs/hello"]
+members = ["korrodium-sdk", "programs/*"]
 
 [profile.release]
 opt-level = "s"
