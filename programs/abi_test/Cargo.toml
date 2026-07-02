@@ -1,0 +1,10 @@
+[package]
+name = "abi_test"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+korrodium-sdk = { path = "../../korrodium-sdk" }
+
+[lib]
+crate-type = ["cdylib"]

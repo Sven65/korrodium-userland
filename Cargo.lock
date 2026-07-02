@@ -3,7 +3,21 @@
 version = 4
 
 [[package]]
+name = "abi_test"
+version = "0.1.0"
+dependencies = [
+ "korrodium-sdk",
+]
+
+[[package]]
 name = "echo"
+version = "0.1.0"
+dependencies = [
+ "korrodium-sdk",
+]
+
+[[package]]
+name = "editor"
 version = "0.1.0"
 dependencies = [
  "korrodium-sdk",
